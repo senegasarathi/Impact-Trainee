@@ -1,0 +1,72 @@
+a{
+  text-decoration: none;
+}
+.header{
+display: flex;
+padding-top:10px;
+padding-bottom: 10px;
+box-shadow: 0px 2px 5px rgb(213, 213, 213);
+justify-content: space-around;
+}
+.logo img{
+  height: 50px;
+  width: 110px;
+
+}
+.header .items{
+  display: flex;
+}
+.header .items ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.header .items ul li a, .header .login a{
+  padding-bottom: 15px;
+  color: black;
+  font-family: Gill Sans MT;
+}
+.header .items ul li a:hover, .header .login a:hover{
+
+  color: rgb(255, 22, 197);
+  border-bottom: 3px solid rgb(255, 22, 197);
+
+}
+.header .items ul li a:focus, .header .login a:focus{
+  color: rgb(255, 22, 197);
+  border-bottom: 3px solid rgb(255, 22, 197);
+}
+.header .search-box{
+  padding-top: 5px;
+}
+.header .search-box input{
+  padding: 5px 100px 6px 15px;
+  font-size:16px;
+  border-radius: 20px 20px  20px 20px;
+}
+.header .search-box .icon{
+  position: relative;
+  cursor: pointer;
+  top: 5px;
+  font-size: 16px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.header .login {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding-top: 16px;
+}
+.header .login a{
+  padding-bottom: 0px;
+}
+.header .login .shopping-cart{
+display: flex;
+gap: 3px;
+}
+.header .login .cart-icon{
+  position: relative;
+  top: -2px;
+  }
